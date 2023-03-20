@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius_Fahrenheit_Translator</title>
+<link rel="stylesheet" href="temperature_translator_Style.css">
+</head>
+<body>
+<!-- :: celsius to fahrenheit *|* translator :: -->
+
+<section name="translator fahrenheit to celsius">
+
+    <div class="translator-Temp">
+
+        <div class="text-result"> 
+           <p>fahrenheit to celsius:</p>
+           <p> ( fahrenheit <span>&#8722;</span> 32 ) * 5 / 9 </p>
+        </div>
+       
+        <div>
+            <input type="number" class="input-Temp"  id="input-FH">
+            <p class="text-result">celsius: 
+                <span><p class="result-Temp" id="result-CS"></p></span></p>
+        </div>
+    </div>
+
+</section>
+
+
+<section name="translator from celsius to fahrenheit">
+
+    <div class="translator-Temp">
+
+        <div class="text-result">
+        <p> celsius to fahrenheit: </p>
+        <p> ( celsius x 1.8 ) + 32 </p> 
+        </div>
+        
+        <div>
+            <input type="number" class="input-Temp"  id="input-CS">
+            <p class="text-result">fahrenheit: 
+                <span><p class="result-Temp" id="result-FH"></p></span></p>
+        </div>
+
+    </div>
+
+</section>
+    
+
+<script src="main.js"></script>
+
+</body>
+</html>
