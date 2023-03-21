@@ -1,0 +1,63 @@
+/* :: temperature translator style :: */
+:root{ box-sizing: border-box;
+    --colorInfoBox: rgb(97, 107, 143);
+    --colorBorder: rgba(64, 68, 95, 0.815);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.translator-Temp{ position: relative;
+    width: 28rem; 
+    height: 30rem;
+    margin: 4rem auto;
+    padding: 1.4rem;
+    padding-left: 3rem;
+    background-color: var(--colorInfoBox);
+    border: 0.4rem solid var(--colorBorder);
+    border-radius: 1rem;
+}
+
+.text-result{ font-size: 2rem;
+}
+
+.input-Temp{ position: relative;;
+ width: 20rem;
+ height: 2.5rem;
+ margin: 1rem;
+ padding: 0.4rem;
+ font-size: 2rem;
+ color: white;
+ background: var(--colorInfoBox);
+ border-radius: 0.5rem;
+ border: 0.25rem solid var(--colorBorder);
+}
+
+.result-Temp{ font-size: 2rem;
+}
+/* celsius result button for onclick event JS */
+#button-CS:before{ content:'\003D'; font-size: 2rem; color: white;}
+#button-CS:hover{ transform: scale(105%);}
+#button-CS:active{ opacity: 60%;}
+#button-CS{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+    background-color:var(--colorInfoBox);
+    border: 0.25rem solid var(--colorBorder);
+    border-radius: 0.8rem;
+}
+
+/* fahrenheit result button for onclick event JS */
+#button-FH:before{ content:'\003D'; font-size: 2rem; color: white;}
+#button-FH:hover{ transform: scale(105%);}
+#button-FH:active{ opacity: 60%;}
+#button-FH{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+    background-color:var(--colorInfoBox);
+    border: 0.25rem solid var(--colorBorder);
+    border-radius: 0.8rem;
+}
+
+
