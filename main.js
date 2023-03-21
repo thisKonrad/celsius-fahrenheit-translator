@@ -41,10 +41,3 @@ btnFH.addEventListener('click', ()=>{
     let getFahrenheit = (( celsius * 1.8 ) + 32).toFixed(2);
         resultFahrenheit.innerText = ' ' + getFahrenheit +' '+'°'+'F';}
 );
-
-
-
-        
-        
-        
-        
