@@ -34,7 +34,7 @@
 
 .result-Temp{ font-size: 2rem;
 }
-/* celsius result button for onclick event JS */
+/* celsius result button for click event JS */
 #button-CS:before{ content:'\003D'; font-size: 2rem; color: white;}
 #button-CS:hover{ transform: scale(105%);}
 #button-CS:active{ opacity: 60%;}
@@ -47,7 +47,7 @@
     border-radius: 0.8rem;
 }
 
-/* fahrenheit result button for onclick event JS */
+/* fahrenheit result button for click event JS */
 #button-FH:before{ content:'\003D'; font-size: 2rem; color: white;}
 #button-FH:hover{ transform: scale(105%);}
 #button-FH:active{ opacity: 60%;}
