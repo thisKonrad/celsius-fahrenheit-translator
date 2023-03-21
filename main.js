@@ -1,6 +1,6 @@
 /* :: temperature translator :: main SCRIPT JS :: */
 
-/** here it returns 2 decimal places with the toFixed(value) Method
+/** here it returns 2 decimal places with the toFixed(value) Method -
  *  return whole numbers with Math.ceil()./floor instead -
  *  */ 
 
